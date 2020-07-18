@@ -1,7 +1,7 @@
 React Assets Maven Plugin Sample
 =======================
 
-This sample project shows how to use [![React Assets Maven Plugin](React Assets Maven Plugin)](https://github.com/maasdi/react-assets-maven-plugin), 
+This sample project shows how to use [React Assets Maven Plugin](https://github.com/maasdi/react-assets-maven-plugin), 
 this project use spring-boot and Thymeleaf, but the plugin should work with any Maven Project.
 
 ## How to run
