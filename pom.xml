@@ -77,11 +77,13 @@
 			<plugin>
 				<groupId>com.github.maasdi</groupId>
 				<artifactId>react-assets-maven-plugin</artifactId>
-				<version>1.0.0</version>
+				<version>1.0.1</version>
 				<executions>
 					<execution>
 						<configuration>
 							<assetsDirectory>${project.basedir}/frontend/build</assetsDirectory>
+							<inlineRuntimeChunk>true</inlineRuntimeChunk>
+							<publicUrl>/</publicUrl>
 							<resources>
 								<resource>
 									<file>${project.basedir}/src/main/resources/templates/home.html</file>
